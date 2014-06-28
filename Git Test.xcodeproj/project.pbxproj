@@ -21,6 +21,7 @@
 		DCBBE6C4195EE77300D99930 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBBE6A6195EE77300D99930 /* UIKit.framework */; };
 		DCBBE6CC195EE77300D99930 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCBBE6CA195EE77300D99930 /* InfoPlist.strings */; };
 		DCBBE6CE195EE77300D99930 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBBE6CD195EE77300D99930 /* Git_TestTests.m */; };
+		DCBBE6D9195EEB7C00D99930 /* LSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBBE6D8195EEB7C00D99930 /* LSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DCBBE6C9195EE77300D99930 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		DCBBE6CB195EE77300D99930 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCBBE6CD195EE77300D99930 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		DCBBE6D7195EEB7C00D99930 /* LSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTest.h; path = ../LSTest.h; sourceTree = "<group>"; };
+		DCBBE6D8195EEB7C00D99930 /* LSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTest.m; path = ../LSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				DCBBE6B7195EE77300D99930 /* LSViewController.h */,
 				DCBBE6B8195EE77300D99930 /* LSViewController.m */,
 				DCBBE6BA195EE77300D99930 /* Images.xcassets */,
+				DCBBE6D7195EEB7C00D99930 /* LSTest.h */,
+				DCBBE6D8195EEB7C00D99930 /* LSTest.m */,
 				DCBBE6A9195EE77300D99930 /* Supporting Files */,
 			);
 			path = "Git Test";
@@ -252,6 +257,7 @@
 			files = (
 				DCBBE6AF195EE77300D99930 /* main.m in Sources */,
 				DCBBE6B3195EE77300D99930 /* LSAppDelegate.m in Sources */,
+				DCBBE6D9195EEB7C00D99930 /* LSTest.m in Sources */,
 				DCBBE6B9195EE77300D99930 /* LSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
